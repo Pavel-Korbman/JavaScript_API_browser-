@@ -1,0 +1,48 @@
+.center {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+input {
+    height: 22px;
+    border-width: thin;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-color: blue;
+}
+h1{
+    display: flex;
+}
+
+.add-button {
+    color: aliceblue;
+    padding: 0px 14px;
+    height: 2em;
+    border-style: hidden;
+    border-radius: 5px;
+    background-color:forestgreen;
+}
+
+.delete-button {
+    color: aliceblue;
+    height: 1.5em;
+    padding: 0px 10px;    
+    border-style: hidden;
+    border-radius: 5px;
+    background-color: red;
+}
+
+.task-list{
+    list-style-type: none;
+    padding-left: 0px;   
+}
+
+.task-item{
+    padding-bottom: 10px;
+    
+}
