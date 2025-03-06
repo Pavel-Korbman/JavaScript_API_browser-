@@ -37,6 +37,15 @@ h1{
     background-color: red;
 }
 
+.clone-button {
+    color: aliceblue;
+    height: 1.5em;
+    padding: 0px 10px;    
+    border-style: hidden;
+    border-radius: 5px;
+    background-color: blue;
+}
+
 .task-list{
     list-style-type: none;
     padding-left: 0px;   
