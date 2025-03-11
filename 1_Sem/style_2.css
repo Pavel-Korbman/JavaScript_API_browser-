@@ -1,0 +1,37 @@
+body{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+button{
+    color: white;
+    padding-right: 10px;
+    height: 30px;   
+    border-radius: 10px;   
+}
+
+.add-button{
+    background-color: forestgreen;
+    border: solid forestgreen thin;
+}
+
+.del-button{
+    background-color: firebrick;
+    border: solid firebrick thin;
+}
+
+.clone-button{
+    background-color: blue;
+    border: solid blue thin;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    border: solid gray thin;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
