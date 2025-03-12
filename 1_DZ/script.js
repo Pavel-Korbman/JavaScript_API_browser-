@@ -92,7 +92,3 @@ sectionClasses.addEventListener('click', event => {
         localStorage.setItem('classes', sectionClasses.innerHTML);
     };
 });
-
-
-
-// localStorage.clear();
