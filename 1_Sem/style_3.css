@@ -1,0 +1,18 @@
+.center {
+    padding-left: calc(50vw - 470px);
+    padding-right: calc(50vw - 470px);
+}
+
+.add-button{
+    color: white !important;
+    border-color: #198754 !important;
+    background-color: #198754 !important;
+}
+
+.card{
+    margin-top: 10px;
+}
+
+.btn{
+    margin-right: 8px;
+}
