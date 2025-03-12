@@ -1,0 +1,26 @@
+header {
+    margin-bottom: 16px;
+}
+
+.center {
+    padding-left: calc(50vw - 470px);
+    padding-right: calc(50vw - 470px);
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.section-classes {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 16px;
+}
+
+.btn {
+    margin-right: 8px;
+}
+
+.non-active-btn {
+    color: white !important;
+    border-color: grey !important;
+    background-color: gray !important;
+}
