@@ -49,5 +49,3 @@ paginationButtons.forEach(e => {
     })
 });
 
-
-// localStorage.clear();
