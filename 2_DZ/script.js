@@ -18,23 +18,23 @@ for (let index = 0; index < photo.length; index++) {
 };
 
 const paginationButtons = document.querySelectorAll('.pagination__btn');
-paginationButtons[firstPhotoIndex].classList.add('red');
+paginationButtons[firstPhotoIndex].classList.add('active');
 
 backBtn.addEventListener('click', () => {
     let i = localStorage.getItem('currentPhotoIndex');
-    paginationButtons[i].classList.remove('red');
+    paginationButtons[i].classList.remove('active');
     (i == 0) ? i = photo.length - 1 : i--;
     currentPhoto.src = photo[i].url;
-    paginationButtons[i].classList.add('red');
+    paginationButtons[i].classList.add('active');
     localStorage.setItem('currentPhotoIndex', i);
 });
 
 forwardBtn.addEventListener('click', () => {
     let i = localStorage.getItem('currentPhotoIndex');
-    paginationButtons[i].classList.remove('red');
+    paginationButtons[i].classList.remove('active');
     (i == photo.length - 1) ? i = 0 : i++;
     currentPhoto.src = photo[i].url;
-    paginationButtons[i].classList.add('red');
+    paginationButtons[i].classList.add('active');
     localStorage.setItem('currentPhotoIndex', i);
 });
 
@@ -42,9 +42,9 @@ paginationButtons.forEach(e => {
     e.addEventListener('click', () => {
         let i = localStorage.getItem('currentPhotoIndex');        
         let j = Number(e.textContent) - 1;
-        paginationButtons[i].classList.remove('red');          
+        paginationButtons[i].classList.remove('active');          
         currentPhoto.src = photo[j].url;
-        paginationButtons[j].classList.add('red'); 
+        paginationButtons[j].classList.add('active'); 
         localStorage.setItem('currentPhotoIndex', Number(e.textContent) - 1); 
     })
 });
