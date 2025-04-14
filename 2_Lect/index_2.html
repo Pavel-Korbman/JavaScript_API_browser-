@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Включить/ выключить</title>
+    <style>
+        .content {
+            opacity: 0;
+            max-height: 0;
+            transition: all 0.5s ease;
+        }
+        .content.visible {
+            opacity: 1;
+            max-height: 1rem;
+            transition: all 0.5s ease;
+        }
+    </style>
+</head>
+
+<body>
+    <p>С ценами</p>
+    <input type="checkbox" id="toggleCheckbox">
+    <label for="toggleCheckbox">Показать/Скрыть контент</label>
+
+    <div class="content">
+        <h1>Заголовок</h1>
+        <p>Содержимое контента</p>
+    </div>
+
+    <script src="script_2.js"></script>
+</body>
+
+</html>
