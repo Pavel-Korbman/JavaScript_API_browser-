@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Селекторы</title>
+    <title>Селекторы и сортировка</title>
 </head>
 
 <body>
@@ -19,6 +19,22 @@
 
     <h2>Столица:</h2>
     <p class="capital-info">Выберите страну</p>
+
+    <h1>Список товаров</h1>
+    <label for="sort-select">Сортировка</label>
+    <select id="sort-select">
+        <option value=""></option>
+        <option value="asc">По возрастанию цены</option>
+        <option value="desc">По убыванию цены</option>
+    </select>
+
+    <ul id="product-list">
+        <li class="product-item">Товар 1 - $50</li>
+        <li class="product-item">Товар 1 - $30</li>
+        <li class="product-item">Товар 1 - $70</li>
+        <li class="product-item">Товар 1 - $20</li>
+    </ul>
+
     <script src="selector.js"></script>
 </body>
 

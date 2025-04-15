@@ -18,4 +18,3 @@ const selected = Array.from(selector.options) // записываю в масс�
     .map(option => option.value);   //  ['value1', 'value2']
 
 
-// Пример: Выбираем страну и показываем столицу
