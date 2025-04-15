@@ -1,0 +1,51 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    height: 50px;
+    background-color: #434343;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.likes {
+    color: bisque;
+}
+
+.center {
+    padding-left: calc(50vw - 300px);
+    padding-right: calc(50vw - 300px);
+}
+
+.header {}
+
+.gallery {
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.gallery__photo {
+    max-width: 600px;
+}
+
+.gallery__like-btn {
+
+    position: absolute;
+    right: calc(50vw - 290px);
+    bottom: 20px;
+}
+
+.info-box {
+    margin-bottom: 5vh;
+}
+
+.active {
+    path {
+        fill: red;
+    }
+}
